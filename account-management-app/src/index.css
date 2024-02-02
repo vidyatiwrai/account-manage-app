@@ -1,0 +1,207 @@
+/* src/index.css */
+/* *{
+  background-color:coral;
+}
+.navbar {
+  background-color:#155724 !important;
+} */
+body {
+  background-color: rgb(125, 78, 78); /* Set the background color for the entire webpage */
+}
+
+.navbar {
+  background-color: rgb(60, 60, 51) !important ; /* Set the background color for the navbar */
+  border-radius: 50px;
+}
+.container_fluid{
+  display: flex;
+  font-size: large;
+}
+/* .registration-container input,
+.account-info-container input {
+  font-size: 12px; /* Set the desired font size for registration and account info page inputs */
+/* } */ 
+.navbar .navbar-brand{
+  font-weight:bold;
+  color: white;
+  font-size: larger;
+}
+.navbar .navbar-brand:hover{
+  font-weight:bold;
+  color: white;
+  font-size: larger;
+  color: indianred;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+  font-size: 18px; /* Set the desired font size for the text */
+}
+.navbar-nav.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav.ml-auto {
+  margin-left: auto; /* Push the items to the right by using auto margin */
+}
+
+
+.navbar .navbar-nav .nav-link:hover {
+  color: indianred; /* Change text color on hover if desired */
+}
+
+
+
+
+
+
+/* src/components/Login.css */
+.login-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+
+
+/* src/components/Registration.css */
+.registration-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+
+/* src/components/AccountInfo.css */
+.account-info-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+
+
+/* // response style */
+
+@media only screen and (max-width: 768px) {
+  .container_fluid {
+    flex-direction: column;
+  }
+
+  .navbar {
+    border-radius: 0; /* Adjust as needed */
+  }
+
+  .navbar-nav.ml-auto {
+    margin-left: 0;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+
+  .navbar .navbar-brand,
+  .navbar .navbar-brand:hover {
+    font-size: 16px;
+  }
+}
